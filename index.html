@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+
+    <!-- tailwind and daisy UI CDN  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script> 
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+
+  </head>
+
+
+  <body class="font-lato">
+
+    <header>
+          <!-- navbar  -->
+        <nav class="max-w-7xl mx-auto my-12">
+            <div class="flex justify-between items-center gap-0 px-12 py-9 bg-[#F85559] rounded-full">
+
+
+                <div class=" list-none">
+                    <ul class=" hidden md:flex justify-between gap-6 text-lg font-medium text-white">
+                        <li><a>Home</a></li>
+                        <li><a>About us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                      </ul>
+                </div>
+
+                <div class="flex justify-between items-center gap-4">
+                    <img class="w-13 h-15" src="./images/logo.png" alt="">
+                    <a class="text-4xl font-bold text-white ">Fruit Burst</a>
+                  </div>
+
+                <div class="">
+ 
+                    <!-- btn btn-ghost btn-circle    navbar-->
+                    <label class="hidden lg:flex justify-between items-center w-100  px-5 py-2 rounded-full bg-white" for="search">
+                        <input class="text-base font-normal bg-transparent" type="text" placeholder="Search here">
+                        <button class="">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                        </button>
+                    </label>
+                  
+                </div>
+
+                <div class="navbar-start  lg:hidden">
+                    <div class="dropdown">
+                      <label tabindex="0" class="w-80 btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                      </label>
+                      <ul tabindex="0" class=" dropdown-content mt-3 w-20 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg font-medium">
+                        <li><a>Homepage</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>About</a></li>
+
+                        <label class="mt-2  px-2 flex rounded-full bg-white border-2  lg:hidden" for="search">
+                          <input class="text-sm font-normal bg-transparent" type="text" placeholder="Search here">
+                          <button class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                          </button>
+                      </ul>
+                     
+                      </label>
+                    </div>
+                  </div>
+              </div>
+        </nav>
+
+
+        <!-- navbar head  -->
+        
+
+    </header>
+
+    <main></main>
+
+
+    <footer></footer>
+
+
+  </body>
+
+
+</html>
